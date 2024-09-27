@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="JesseChomba">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/old-english-five" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/edu-sa-beginner" rel="stylesheet">
+                
+    <script src="site.js"></script>
+    <title>Jesse Chomba</title>
+</head>
+<body style="text-align: center;"><header>
+    
+    <div class ="navigation">
+    <nav>
+         <a href="#About_me">About</a>
+         <a href="#skills">Skills</a>
+         <a href="#projects" >Projects and Cv</a>
+         <a href="#contact_me">Contact Me</a>
+        
+    </nav>
+  
+    </div>
+    <div class="headshotparallax">
+    <img class="profile" src="profile2.jpg" alt="profile"><br>
+   <h1> <span class="name">J</span>esse <span>C</span>homba </h1>
+</div>
+</header>
+<section class="About_me">
+   <centre> <h2>Hi ✌️</h2></centre>
+ <p>I'm Jesse Chomba, a young and ambitious Kenyan with a passion for technology and business. My goal is to bring innovative solutions that uplift society and drive progress on a global scale. I believe in the power of collaboration and empowering the next generation of change-makers.</p>
+ <p>Currently, I am pursuing a Bachelor of Science in Computer Science at The Catholic University of Eastern Africa. Alongside my studies, I'm also working towards my ACCA professional qualification.</p>
+
+<p>In my free time, I enjoy taking on freelance tutoring assignments, where I have the opportunity to share my knowledge and help students succeed. I'm a firm believer that together, we can create a brighter future for all.</p>
+
+<p>Through my portfolio, I hope to showcase my skills, experiences, and my commitment to making a positive impact in the world. I look forward to connecting with like-minded individuals and collaborating on innovative projects that drive progress and empower communities.</p>
+</section>
+<section class="skills">
+    <h3 id="skills">Skills</h3>
+    
+        <p>
+          My technical expertise includes proficiency in programming languages such as C, Python, and Java, as well as  beginner experience in web development
+          specifically using HTML and cascading style sheets (CSS).
+        </p>
+        <p>
+            Additionally I am also a skilled problem solver with a critical and analytical mindset
+        </p>
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 5</div>
+              <img src="python.jpg" style="width:300px ;height:300px" alt="Python">
+             <centre> <div class="text">Python</div></centre>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <centre><img src="java.png" style="width:300px; height:300px " alt="Java",></centre>
+                <div class="text">Java</div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <centre><img src="C logo.png" style="width:300px ;height:300px" alt="C"></centre> 
+                <div class="text">C</div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <centre><img src="HTML.png" style="width:300px ;height:300px" alt="HTML"></centre> 
+                <div class="text">HTML</div>
+              </div> 
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <centre><img src="php.png" style="width:300px ;height:300px" alt="PHP"></centre> 
+                <div class="text">php</div>
+              </div> 
+              <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+    </div>
+</section>
+
+<section class="projects">
+    <h4>My Projects</h4>
+<p>Some of the Projects I have been able to work on include:</p>
+<ul style="text-align: center;">
+    <li><a href="https://github.com/JesseChomba/CMT-209-Project">Web-Commerce project:</a></li>
+    <li><a href="https://github.com/JesseChomba/Eccomerce-project">E-commerce project</a></li>
+</ul>
+</section>
+
+<section class="contact_me">
+    <h4>Reach Out to me</h4>
+    <p>Feel free to reach out to me on any of the following platforms:</p>
+    <ul>
+    <li><a href="https://www.linkedin.com/in/jessechomba/" target="blank"><i style="font-size:50px" class="fa">&#xf08c;</i></a> </li>
+       <li> <a href="https://github.com/JesseChomba" target="_blank"><i style="font-size:50px" class="fa">&#xf09b;</i></a></li>
+       <li></li> <a href="mailto:Jessechomba2@gmail.com" target="blank"><i class="material-icons" style="font-size: 50px;">&#xe158;</i></a></li>
+    </ul>
+    <div id="form-main">
+        <div id="form-div">
+          <form class="form" id="form1">
+            
+            <p class="name">
+                <label for="name">Name</label>
+              <input aria-describedby="name" name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+            </p>
+            
+            <p class="email">
+                <label for="email">email</label>
+              <input aria-describedby="email" name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+            </p>
+            
+            <p class="text">
+                <label for="text">Message</label>
+              <textarea aria-describedby="comment" name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comments, feedback or suggestions"></textarea>
+            </p>
+            
+            
+            <div class="submit">
+                <label for="button-blue"> Send</label>
+              <input type="submit" value="SEND" id="button-blue"/>
+              <div class="ease"></div>
+            </div>
+          </form>
+        </div>
+</section>
+<div>
+    <footer>Jesse Chomba 2024 &#174; <a href="https://www.linkedin.com/in/jessechomba/" target="blank"><i style="font-size:24px" class="fa">&#xf08c;</i></a> 
+    <a href="https://github.com/JesseChomba" target="blank"><i style="font-size:24px" class="fa">&#xf09b;</i></a>
+    <a href="mailto:Jessechomba2@gmail.com" target="blank"><i class="material-icons">&#xe158;</i></a>
+ </footer>
+</div>
+</body>
+</html>

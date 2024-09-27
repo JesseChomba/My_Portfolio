@@ -1,0 +1,391 @@
+/* Add a black background color to the top navigation */
+.navigation {
+    background-color: #333;
+    overflow: hidden;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .navigation a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .navigation a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  /* carousel/ Slideshow
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 500px;
+    position:relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display:none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position:relative;
+    top: auto;
+    width: 100px;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 6px 6px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #181717;
+    font-size: 30px;
+    padding: 8px 20px;
+    position:relative;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    background-color:aliceblue;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 1.0s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 3.0s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+/*profile picture
+*/
+.profile{
+    height: 100px;
+    width:100px;
+    border-radius:35%;
+}
+span{
+    font-size: 60px;
+    font-family: 'Old English Five',sans-serif;
+    margin-top: 0px;
+    padding-top:0px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+.headshotparallax{
+    /* The image used */
+  background-image: url("background.jpg");
+
+  /* Set a specific height */
+  min-height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.About_me{
+    background-color: #f2f2f2;
+    font-family: 'Edu SA Beginner', sans-serif;
+                                                
+    font-size: 20px;
+}
+ul{
+    list-style-type: none;
+
+}
+.skills{
+    background-color:#f2f2f2;
+    font-family: 'Edu SA Beginner', sans-serif;
+                                                
+    font-size: 20px;
+}
+.projects{
+    background-color:#f2f2f2;
+    font-family: 'Edu SA Beginner', sans-serif;
+                                                
+    font-size: 20px;
+}
+.contact_me{
+    background-color:#f2f2f2;
+    font-family: 'Edu SA Beginner', sans-serif;
+                                                
+    font-size: 20px;
+}
+ul li:hover{
+    transform: scale(1.05);
+
+}
+ul li{
+    margin:10px 0;
+    padding:10px;
+    background: linear-gradient(to left,);
+    transition: transform 0.3s;
+}
+
+
+/* form design*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html{    
+  background:#ace4cd;
+  background-size: cover;
+  height:100%;
+  background-image: url("background2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#feedback-page{
+	text-align:center;
+}
+
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:50px;
+}
+
+#form-div {
+	background-color:rgba(72,72,72,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+  margin-top:30px;
+	margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #FE938C;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+}
+	
+.submit:hover {
+	color: #FE938C;
+}
+	
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+footer {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;     
+    background-color: blueviolet;       /* Footer height */
+  }
+h2{
+    font-size: 1.5rem;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    text-shadow: #181717;
+    color: darkred;
+}
+h3{
+    font-size: 1.5rem;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    text-shadow: #181717;
+    color: darkred;
+}
+h4{
+    font-size: 1.5rem;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    text-shadow: #181717;
+    color: darkred;
+}
